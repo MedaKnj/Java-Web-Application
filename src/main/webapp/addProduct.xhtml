@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head></h:head>
+
+<h:body>
+<ui:composition template="/templates/page.xhtml">
+<ui:define name="content">
+    <h:form prependId="false">
+        <h:panelGrid columns="2" cellpadding="2" cellspacing="2">
+
+            <h:outputText value="Name"/>
+
+            <h:inputText value="#{productController.p.productName}"/>
+
+            <h:outputText value="Price"/>
+
+            <h:inputText value="#{productController.p.price}"/>
+
+            <h:outputText value="Quantity"/>
+
+            <h:inputText value="#{productController.p.quantity}"/>
+
+            <h:commandButton value="Save" action="#{productController.add()}"/>
+
+            <h:commandButton value="Cancel" action="productList"/>
+
+        </h:panelGrid>
+    </h:form>
+</ui:define>
+</ui:composition>
+</h:body>
+
+</html>

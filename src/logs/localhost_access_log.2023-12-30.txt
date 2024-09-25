@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:47:46 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:47:49 +0100] "GET /MyWebApplication/ HTTP/1.1" 200 828
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:47:49 +0100] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:47:58 +0100] "POST /MyWebApplication/faces/index.xhtml HTTP/1.1" 200 1490
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:48:00 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 200 4568
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:48:10 +0100] "POST /MyWebApplication/faces/buyerList.xhtml HTTP/1.1" 500 6092
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:49:26 +0100] "POST /MyWebApplication/faces/buyerList.xhtml HTTP/1.1" 200 1486
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:49:27 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 200 913
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:19:49:33 +0100] "POST /MyWebApplication/faces/addSale.xhtml HTTP/1.1" 500 4007

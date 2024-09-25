@@ -1,0 +1,746 @@
+26-Dec-2023 20:57:20.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.93
+26-Dec-2023 20:57:20.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 22:43:14 UTC
+26-Dec-2023 20:57:20.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.93.0
+26-Dec-2023 20:57:20.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Dec-2023 20:57:20.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Dec-2023 20:57:20.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2023 20:57:20.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot
+26-Dec-2023 20:57:20.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+26-Dec-2023 20:57:20.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Dec-2023 20:57:20.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src
+26-Dec-2023 20:57:20.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medak\Downloads\apache-tomcat-8.5.93-windows-x64\apache-tomcat-8.5.93
+26-Dec-2023 20:57:20.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Dec-2023 20:57:20.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medak\Downloads\apache-tomcat-8.5.93-windows-x64\apache-tomcat-8.5.93
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\temp
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\logging.properties
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2023 20:57:20.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=55351:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin
+26-Dec-2023 20:57:20.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Dec-2023 20:57:20.561 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\medak\AppData\Local\Microsoft\WindowsApps;C:\Users\medak\AppData\Local\atom\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\medak\AppData\Local\GitHubDesktop\bin;.]
+26-Dec-2023 20:57:20.618 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 20:57:20.635 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 380 ms
+26-Dec-2023 20:57:20.666 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Dec-2023 20:57:20.666 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.93]
+26-Dec-2023 20:57:20.674 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\Catalina\localhost\MyWebApplication.xml]
+26-Dec-2023 20:57:20.897 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+26-Dec-2023 20:57:22.661 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 20:57:22.763 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.20 ( 20190731-0757 59754ac80c05d61848a08939ddd11a324f2345ac) for context '/MyWebApplication'
+26-Dec-2023 20:57:22.883 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+26-Dec-2023 20:57:23.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\Catalina\localhost\MyWebApplication.xml] has finished in [2,595] ms
+26-Dec-2023 20:57:23.271 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 20:57:23.282 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2647 ms
+26-Dec-2023 20:57:25.532 INFO [http-nio-8082-exec-2] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.2.3.Final
+26-Dec-2023 20:57:25.536 INFO [http-nio-8082-exec-2] org.hibernate.cfg.Environment.<clinit> HHH000406: Using bytecode reflection optimizer
+26-Dec-2023 20:57:26.197 WARN [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+26-Dec-2023 20:57:26.201 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+26-Dec-2023 20:57:26.202 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 20:57:26.202 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+26-Dec-2023 20:57:26.202 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+26-Dec-2023 20:57:26.206 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 50 (min=1)
+26-Dec-2023 20:57:26.906 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 20:57:26.918 SEVERE [http-nio-8082-exec-2] com.sun.faces.application.view.FaceletViewHandlingStrategy.handleRenderException Error Rendering View[/index.xhtml]
+	com.sun.faces.mgbean.ManagedBeanCreationException: Cant instantiate class: controller.AccountController.
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:191)
+		at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+		at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+		at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+		at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+		at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:93)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:136)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+		at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getValue(HtmlBasicInputRenderer.java:205)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.getCurrentValue(HtmlBasicRenderer.java:355)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeEnd(HtmlBasicRenderer.java:164)
+		at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.hibernate.AnnotationException: Property 'entities.Buyer.saless' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+		at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1083)
+		at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:975)
+		at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:817)
+		at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:810)
+		at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:270)
+		at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:851)
+		at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:765)
+		at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:686)
+		at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:961)
+		at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:302)
+		at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:228)
+		at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:417)
+		at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:255)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:275)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:318)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:125)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:451)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:102)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:863)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:913)
+		at model.AbstractModel.<init>(AbstractModel.java:19)
+		at model.AccountModel.<init>(AccountModel.java:9)
+		at controller.AccountController.<init>(AccountController.java:12)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+		at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347)
+		at java.base/java.lang.Class.newInstance(Class.java:645)
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+		... 48 more
+26-Dec-2023 20:59:42.328 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 20:59:42.331 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Dec-2023 20:59:42.341 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MyWebApplication] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+26-Dec-2023 20:59:42.342 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [MyWebApplication] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/java.lang.Object.wait(Native Method)
+ java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+26-Dec-2023 20:59:42.346 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 20:59:42.354 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 20:59:45.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.93
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 22:43:14 UTC
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.93.0
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src
+26-Dec-2023 20:59:45.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medak\Downloads\apache-tomcat-8.5.93-windows-x64\apache-tomcat-8.5.93
+26-Dec-2023 20:59:45.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Dec-2023 20:59:45.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Dec-2023 20:59:45.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Dec-2023 20:59:45.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Dec-2023 20:59:45.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Dec-2023 20:59:45.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medak\Downloads\apache-tomcat-8.5.93-windows-x64\apache-tomcat-8.5.93
+26-Dec-2023 20:59:45.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src
+26-Dec-2023 20:59:45.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\temp
+26-Dec-2023 20:59:45.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\logging.properties
+26-Dec-2023 20:59:45.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2023 20:59:45.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=55393:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin
+26-Dec-2023 20:59:45.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Dec-2023 20:59:45.278 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\medak\AppData\Local\Microsoft\WindowsApps;C:\Users\medak\AppData\Local\atom\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\medak\AppData\Local\GitHubDesktop\bin;.]
+26-Dec-2023 20:59:45.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 20:59:45.334 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 342 ms
+26-Dec-2023 20:59:45.368 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Dec-2023 20:59:45.369 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.93]
+26-Dec-2023 20:59:45.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\Catalina\localhost\MyWebApplication.xml]
+26-Dec-2023 20:59:45.593 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+26-Dec-2023 20:59:47.132 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 20:59:47.228 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.20 ( 20190731-0757 59754ac80c05d61848a08939ddd11a324f2345ac) for context '/MyWebApplication'
+26-Dec-2023 20:59:47.332 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+26-Dec-2023 20:59:47.719 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\Catalina\localhost\MyWebApplication.xml] has finished in [2,343] ms
+26-Dec-2023 20:59:47.720 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 20:59:47.731 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2397 ms
+26-Dec-2023 20:59:49.782 INFO [http-nio-8082-exec-2] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.2.3.Final
+26-Dec-2023 20:59:49.786 INFO [http-nio-8082-exec-2] org.hibernate.cfg.Environment.<clinit> HHH000406: Using bytecode reflection optimizer
+26-Dec-2023 20:59:50.336 WARN [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+26-Dec-2023 20:59:50.340 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+26-Dec-2023 20:59:50.340 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 20:59:50.341 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+26-Dec-2023 20:59:50.341 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+26-Dec-2023 20:59:50.345 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 50 (min=1)
+26-Dec-2023 20:59:50.896 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 20:59:50.908 SEVERE [http-nio-8082-exec-2] com.sun.faces.application.view.FaceletViewHandlingStrategy.handleRenderException Error Rendering View[/index.xhtml]
+	com.sun.faces.mgbean.ManagedBeanCreationException: Cant instantiate class: controller.AccountController.
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:191)
+		at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+		at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+		at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+		at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+		at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:93)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:136)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+		at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getValue(HtmlBasicInputRenderer.java:205)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.getCurrentValue(HtmlBasicRenderer.java:355)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeEnd(HtmlBasicRenderer.java:164)
+		at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.hibernate.AnnotationException: Property 'entities.Buyer.saless' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+		at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1083)
+		at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:975)
+		at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:817)
+		at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:810)
+		at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:270)
+		at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:851)
+		at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:765)
+		at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:686)
+		at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:961)
+		at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:302)
+		at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:228)
+		at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:417)
+		at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:255)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:275)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:318)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:125)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:451)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:102)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:863)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:913)
+		at model.AbstractModel.<init>(AbstractModel.java:19)
+		at model.AccountModel.<init>(AccountModel.java:9)
+		at controller.AccountController.<init>(AccountController.java:12)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+		at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347)
+		at java.base/java.lang.Class.newInstance(Class.java:645)
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+		... 48 more
+26-Dec-2023 21:00:31.736 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:00:31.740 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Dec-2023 21:00:31.747 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MyWebApplication] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+26-Dec-2023 21:00:31.748 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [MyWebApplication] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/java.lang.Object.wait(Native Method)
+ java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+26-Dec-2023 21:00:31.752 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:00:31.763 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:00:33.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.93
+26-Dec-2023 21:00:33.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 22:43:14 UTC
+26-Dec-2023 21:00:33.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.93.0
+26-Dec-2023 21:00:33.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Dec-2023 21:00:33.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Dec-2023 21:00:33.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2023 21:00:33.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot
+26-Dec-2023 21:00:33.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+26-Dec-2023 21:00:33.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Dec-2023 21:00:33.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src
+26-Dec-2023 21:00:33.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medak\Downloads\apache-tomcat-8.5.93-windows-x64\apache-tomcat-8.5.93
+26-Dec-2023 21:00:33.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Dec-2023 21:00:33.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Dec-2023 21:00:33.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Dec-2023 21:00:33.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medak\Downloads\apache-tomcat-8.5.93-windows-x64\apache-tomcat-8.5.93
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\temp
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\logging.properties
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=55415:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Dec-2023 21:00:33.918 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\medak\AppData\Local\Microsoft\WindowsApps;C:\Users\medak\AppData\Local\atom\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\medak\AppData\Local\GitHubDesktop\bin;.]
+26-Dec-2023 21:00:33.960 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:00:33.981 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 339 ms
+26-Dec-2023 21:00:34.014 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Dec-2023 21:00:34.014 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.93]
+26-Dec-2023 21:00:34.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\Catalina\localhost\MyWebApplication.xml]
+26-Dec-2023 21:00:34.249 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+26-Dec-2023 21:00:35.736 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 21:00:35.843 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.20 ( 20190731-0757 59754ac80c05d61848a08939ddd11a324f2345ac) for context '/MyWebApplication'
+26-Dec-2023 21:00:35.949 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+26-Dec-2023 21:00:36.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\Catalina\localhost\MyWebApplication.xml] has finished in [2,322] ms
+26-Dec-2023 21:00:36.344 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:00:36.356 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2374 ms
+26-Dec-2023 21:00:37.814 INFO [http-nio-8082-exec-2] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.2.3.Final
+26-Dec-2023 21:00:37.818 INFO [http-nio-8082-exec-2] org.hibernate.cfg.Environment.<clinit> HHH000406: Using bytecode reflection optimizer
+26-Dec-2023 21:00:38.346 WARN [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+26-Dec-2023 21:00:38.351 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+26-Dec-2023 21:00:38.351 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 21:00:38.352 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+26-Dec-2023 21:00:38.352 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+26-Dec-2023 21:00:38.362 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 50 (min=1)
+26-Dec-2023 21:00:38.937 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 21:00:38.949 SEVERE [http-nio-8082-exec-2] com.sun.faces.application.view.FaceletViewHandlingStrategy.handleRenderException Error Rendering View[/index.xhtml]
+	com.sun.faces.mgbean.ManagedBeanCreationException: Cant instantiate class: controller.AccountController.
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:191)
+		at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+		at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+		at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+		at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+		at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:93)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:136)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+		at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getValue(HtmlBasicInputRenderer.java:205)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.getCurrentValue(HtmlBasicRenderer.java:355)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeEnd(HtmlBasicRenderer.java:164)
+		at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.hibernate.AnnotationException: Property 'entities.Buyer.saless' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+		at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1083)
+		at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:975)
+		at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:817)
+		at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:810)
+		at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:270)
+		at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:851)
+		at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:765)
+		at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:686)
+		at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:961)
+		at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:302)
+		at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:228)
+		at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:417)
+		at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:255)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:275)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:318)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:125)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:451)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:102)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:863)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:913)
+		at model.AbstractModel.<init>(AbstractModel.java:19)
+		at model.AccountModel.<init>(AccountModel.java:9)
+		at controller.AccountController.<init>(AccountController.java:12)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+		at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347)
+		at java.base/java.lang.Class.newInstance(Class.java:645)
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+		... 48 more
+26-Dec-2023 21:02:44.168 WARN [http-nio-8082-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+26-Dec-2023 21:02:44.168 INFO [http-nio-8082-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+26-Dec-2023 21:02:44.168 INFO [http-nio-8082-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 21:02:44.169 INFO [http-nio-8082-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+26-Dec-2023 21:02:44.169 INFO [http-nio-8082-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+26-Dec-2023 21:02:44.169 INFO [http-nio-8082-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 50 (min=1)
+26-Dec-2023 21:02:44.194 INFO [http-nio-8082-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 21:02:44.195 SEVERE [http-nio-8082-exec-4] com.sun.faces.application.view.FaceletViewHandlingStrategy.handleRenderException Error Rendering View[/index.xhtml]
+	com.sun.faces.mgbean.ManagedBeanCreationException: Cant instantiate class: controller.AccountController.
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:191)
+		at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+		at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+		at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+		at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+		at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:93)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:136)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+		at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getValue(HtmlBasicInputRenderer.java:205)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.getCurrentValue(HtmlBasicRenderer.java:355)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeEnd(HtmlBasicRenderer.java:164)
+		at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.hibernate.AnnotationException: Property 'entities.Buyer.saless' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+		at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1083)
+		at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:975)
+		at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:817)
+		at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:810)
+		at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:270)
+		at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:851)
+		at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:765)
+		at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:686)
+		at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:961)
+		at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:302)
+		at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:228)
+		at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:417)
+		at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:255)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:275)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:318)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:125)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:451)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:102)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:863)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:913)
+		at model.AbstractModel.<init>(AbstractModel.java:19)
+		at model.AccountModel.<init>(AccountModel.java:9)
+		at controller.AccountController.<init>(AccountController.java:12)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+		at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347)
+		at java.base/java.lang.Class.newInstance(Class.java:645)
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+		... 48 more
+26-Dec-2023 21:03:12.575 WARN [http-nio-8082-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+26-Dec-2023 21:03:12.576 INFO [http-nio-8082-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+26-Dec-2023 21:03:12.577 INFO [http-nio-8082-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 21:03:12.577 INFO [http-nio-8082-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+26-Dec-2023 21:03:12.577 INFO [http-nio-8082-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+26-Dec-2023 21:03:12.578 INFO [http-nio-8082-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 50 (min=1)
+26-Dec-2023 21:03:12.611 INFO [http-nio-8082-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 21:03:12.612 SEVERE [http-nio-8082-exec-8] com.sun.faces.application.view.FaceletViewHandlingStrategy.handleRenderException Error Rendering View[/index.xhtml]
+	com.sun.faces.mgbean.ManagedBeanCreationException: Cant instantiate class: controller.AccountController.
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:191)
+		at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+		at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+		at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+		at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+		at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:93)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:136)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+		at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getValue(HtmlBasicInputRenderer.java:205)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.getCurrentValue(HtmlBasicRenderer.java:355)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeEnd(HtmlBasicRenderer.java:164)
+		at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.hibernate.AnnotationException: Property 'entities.Buyer.saless' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+		at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1083)
+		at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:975)
+		at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:817)
+		at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:810)
+		at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:270)
+		at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:851)
+		at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:765)
+		at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:686)
+		at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:961)
+		at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:302)
+		at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:228)
+		at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:417)
+		at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:255)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:275)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:318)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:125)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:451)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:102)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:863)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:913)
+		at model.AbstractModel.<init>(AbstractModel.java:19)
+		at model.AccountModel.<init>(AccountModel.java:9)
+		at controller.AccountController.<init>(AccountController.java:12)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+		at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347)
+		at java.base/java.lang.Class.newInstance(Class.java:645)
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+		... 48 more
+26-Dec-2023 21:03:20.648 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:03:20.652 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Dec-2023 21:03:20.659 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MyWebApplication] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+26-Dec-2023 21:03:20.660 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [MyWebApplication] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/java.lang.Object.wait(Native Method)
+ java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+26-Dec-2023 21:03:20.663 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:03:20.678 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:05:49.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.93
+26-Dec-2023 21:05:49.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 22:43:14 UTC
+26-Dec-2023 21:05:49.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.93.0
+26-Dec-2023 21:05:49.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Dec-2023 21:05:49.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Dec-2023 21:05:49.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2023 21:05:49.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot
+26-Dec-2023 21:05:49.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+26-Dec-2023 21:05:49.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Dec-2023 21:05:49.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src
+26-Dec-2023 21:05:49.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medak\Downloads\apache-tomcat-8.5.93-windows-x64\apache-tomcat-8.5.93
+26-Dec-2023 21:05:49.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Dec-2023 21:05:49.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Dec-2023 21:05:49.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Dec-2023 21:05:49.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Dec-2023 21:05:49.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Dec-2023 21:05:49.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medak\Downloads\apache-tomcat-8.5.93-windows-x64\apache-tomcat-8.5.93
+26-Dec-2023 21:05:49.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src
+26-Dec-2023 21:05:49.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\temp
+26-Dec-2023 21:05:49.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\logging.properties
+26-Dec-2023 21:05:49.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2023 21:05:49.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=55637:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin
+26-Dec-2023 21:05:49.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Dec-2023 21:05:49.686 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\medak\AppData\Local\Microsoft\WindowsApps;C:\Users\medak\AppData\Local\atom\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\medak\AppData\Local\GitHubDesktop\bin;.]
+26-Dec-2023 21:05:49.724 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:05:49.739 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 376 ms
+26-Dec-2023 21:05:49.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Dec-2023 21:05:49.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.93]
+26-Dec-2023 21:05:49.775 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\Catalina\localhost\MyWebApplication.xml]
+26-Dec-2023 21:05:49.994 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+26-Dec-2023 21:05:51.521 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2023 21:05:51.620 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.20 ( 20190731-0757 59754ac80c05d61848a08939ddd11a324f2345ac) for context '/MyWebApplication'
+26-Dec-2023 21:05:51.727 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+26-Dec-2023 21:05:52.126 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ITAcademy\7 Java Web Application Development\Projects\MyWebApplication\src\conf\Catalina\localhost\MyWebApplication.xml] has finished in [2,351] ms
+26-Dec-2023 21:05:52.127 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:05:52.139 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2400 ms
+26-Dec-2023 21:05:54.081 INFO [http-nio-8082-exec-2] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.2.3.Final
+26-Dec-2023 21:05:54.085 INFO [http-nio-8082-exec-2] org.hibernate.cfg.Environment.<clinit> HHH000406: Using bytecode reflection optimizer
+26-Dec-2023 21:05:54.605 WARN [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+26-Dec-2023 21:05:54.610 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+26-Dec-2023 21:05:54.610 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 21:05:54.610 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+26-Dec-2023 21:05:54.610 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+26-Dec-2023 21:05:54.614 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 50 (min=1)
+26-Dec-2023 21:05:55.167 INFO [http-nio-8082-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC]
+26-Dec-2023 21:05:55.178 SEVERE [http-nio-8082-exec-2] com.sun.faces.application.view.FaceletViewHandlingStrategy.handleRenderException Error Rendering View[/index.xhtml]
+	com.sun.faces.mgbean.ManagedBeanCreationException: Cant instantiate class: controller.AccountController.
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:191)
+		at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+		at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+		at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+		at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+		at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:93)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:136)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+		at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getValue(HtmlBasicInputRenderer.java:205)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.getCurrentValue(HtmlBasicRenderer.java:355)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeEnd(HtmlBasicRenderer.java:164)
+		at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.hibernate.AnnotationException: Property 'entities.Buyer.saless' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+		at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1083)
+		at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:975)
+		at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:817)
+		at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:810)
+		at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:270)
+		at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:851)
+		at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:765)
+		at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:686)
+		at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:961)
+		at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:302)
+		at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:228)
+		at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:417)
+		at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:255)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:275)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:318)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:125)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:451)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:102)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:863)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:913)
+		at model.AbstractModel.<init>(AbstractModel.java:19)
+		at model.AccountModel.<init>(AccountModel.java:9)
+		at controller.AccountController.<init>(AccountController.java:12)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+		at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347)
+		at java.base/java.lang.Class.newInstance(Class.java:645)
+		at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+		... 48 more
+26-Dec-2023 21:12:53.521 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:12:53.525 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Dec-2023 21:12:53.532 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MyWebApplication] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+26-Dec-2023 21:12:53.533 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [MyWebApplication] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/java.lang.Object.wait(Native Method)
+ java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+26-Dec-2023 21:12:53.536 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+26-Dec-2023 21:12:53.548 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]

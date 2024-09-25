@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name = "entities.Product" table = "products">
+        <meta attribute="class-description">
+            This class contains the product details
+        </meta>
+        <id name = "productId" type = "int" column = "product_id">
+            <generator class = "increment"/>
+        </id>
+        <property name = "productName" column = "product_name" type = "string"/>
+        <property name = "price" column = "price" type = "double"/>
+        <property name="quantity" column="quantity" type="int"/>
+    </class>
+
+    <class name = "entities.Buyer" table = "buyers">
+        <meta attribute="class-description">
+            This class contains the buyer details
+        </meta>
+        <id name = "buyerId" type = "int" column = "buyer_id">
+            <generator class = "increment"/>
+        </id>
+        <property name = "name" column = "name" type = "string"/>
+        <property name = "lastName" column = "last_name" type = "string"/>
+        <property name="address" column="address" type="string"/>
+        <property name="balance" column="balance" type="double"/>
+    </class>
+
+    <class name = "entities.Sale" table = "sales">
+        <meta attribute="class-description">
+            This class contains the sale details
+        </meta>
+        <id name = "saleId" type = "int" column = "sale_id">
+            <generator class = "increment"/>
+        </id>
+        <property name = "sale_date" column = "sale_date" type = "java.util.Date"/>
+        <property name = "buyer" column = "buyer_id" type = "java.lang.Integer"/>
+        <property name = "product" column = "product_id" type = "int"/>
+        <property name = "quantitySale" column = "quantity_sale" type = "int"/>
+        <property name = "price" column = "price" type = "double"/>
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:10 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:13 +0100] "GET /MyWebApplication/ HTTP/1.1" 200 828
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:13 +0100] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:21 +0100] "POST /MyWebApplication/faces/index.xhtml HTTP/1.1" 200 1160
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:21 +0100] "GET /MyWebApplication/faces/javax.faces.resource/jsf.js?ln=javax.faces HTTP/1.1" 200 44385
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:25 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 200 5882
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:30 +0100] "POST /MyWebApplication/faces/productList.xhtml HTTP/1.1" 200 1396
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:32 +0100] "GET /MyWebApplication/faces/productList.xhtml HTTP/1.1" 200 5880
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:35 +0100] "POST /MyWebApplication/faces/productList.xhtml HTTP/1.1" 200 4056
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:44 +0100] "POST /MyWebApplication/faces/buyerList.xhtml HTTP/1.1" 200 1085
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:47 +0100] "POST /MyWebApplication/faces/buyerEdit.xhtml HTTP/1.1" 200 4055
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:49 +0100] "POST /MyWebApplication/faces/buyerList.xhtml HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:51 +0100] "POST /MyWebApplication/faces/buyerEdit.xhtml HTTP/1.1" 200 4056
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:54 +0100] "POST /MyWebApplication/faces/buyerList.xhtml HTTP/1.1" 200 1098
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:54:56 +0100] "POST /MyWebApplication/faces/buyerEdit.xhtml HTTP/1.1" 200 4055
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:55:02 +0100] "POST /MyWebApplication/faces/buyerList.xhtml HTTP/1.1" 200 1159
+0:0:0:0:0:0:0:1 - - [02/Dec/2023:23:55:04 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 200 828

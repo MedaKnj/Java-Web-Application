@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:20:57:25 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:20:57:26 +0100] "GET /MyWebApplication/ HTTP/1.1" 500 8702
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:20:57:26 +0100] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:20:59:49 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:20:59:50 +0100] "GET /MyWebApplication/ HTTP/1.1" 500 8702
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:00:37 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:00:38 +0100] "GET /MyWebApplication/ HTTP/1.1" 500 8702
+127.0.0.1 - - [26/Dec/2023:21:02:44 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+127.0.0.1 - - [26/Dec/2023:21:02:44 +0100] "GET /MyWebApplication/ HTTP/1.1" 500 8702
+127.0.0.1 - - [26/Dec/2023:21:02:44 +0100] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:03:12 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:03:12 +0100] "GET /MyWebApplication/ HTTP/1.1" 500 8702
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:03:12 +0100] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:05:53 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:05:55 +0100] "GET /MyWebApplication/ HTTP/1.1" 500 8702

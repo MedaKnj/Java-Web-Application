@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head></h:head>
+
+<body>
+    <h1>Welcome #{accountController.account.username}</h1>
+    <br/>
+<ui:composition template="/templates/page.xhtml">
+<ui:define name="content">
+
+<h:form>
+    Select an option:
+    <br/>
+    <br/>
+    <h:commandLink value="List of products" action="productList"/>
+    <br/>
+    <br/>
+    <h:commandLink value="List of customers" action="buyerList"/>
+    <br/>
+    <br/>
+    <h:commandLink value="Shopping cart" action="addSale"/>
+</h:form>
+</ui:define>
+</ui:composition>
+</body>
+</html>

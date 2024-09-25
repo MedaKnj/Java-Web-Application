@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:51:47 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:51:51 +0100] "GET /MyWebApplication/ HTTP/1.1" 200 830
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:51:51 +0100] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:52:00 +0100] "POST /MyWebApplication/faces/index.xhtml HTTP/1.1" 200 1491
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:52:04 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 200 914
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:52:14 +0100] "POST /MyWebApplication/faces/addSale.xhtml HTTP/1.1" 500 4007
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:59:19 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:59:22 +0100] "GET /MyWebApplication/ HTTP/1.1" 200 829
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:59:30 +0100] "POST /MyWebApplication/faces/index.xhtml HTTP/1.1" 200 1491
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:59:33 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 200 914
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:16:59:43 +0100] "POST /MyWebApplication/faces/addSale.xhtml HTTP/1.1" 500 3977
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:17:07:41 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 500 5569
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:17:08:31 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:17:08:33 +0100] "GET /MyWebApplication/ HTTP/1.1" 200 829
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:17:08:40 +0100] "POST /MyWebApplication/faces/index.xhtml HTTP/1.1" 200 1491
+0:0:0:0:0:0:0:1 - - [31/Dec/2023:17:08:43 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 500 5569

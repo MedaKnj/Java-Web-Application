@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head></h:head>
+
+<body>
+<ui:composition template="/templates/page.xhtml">
+<ui:define name="content">
+<h:form>
+    <br/>
+    <h:dataTable style="background-color: white;" var="byr" value="#{buyerController.findAll()}" border="1" cellpadding="2" cellspacing="2">
+        <h:column>
+            <f:facet name="header">Id</f:facet>
+            <h:outputText value="#{byr.buyerId}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Name</f:facet>
+            <h:outputText value="#{byr.name}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Last Name</f:facet>
+            <h:outputText value="#{byr.lastName}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Address</f:facet>
+            <h:outputText value="#{byr.address}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Balance</f:facet>
+            <h:outputText value="#{byr.balance}"/>
+        </h:column>
+    </h:dataTable>
+    <br/>
+    <br/>
+</h:form>
+
+<h:form>
+<br/>
+<h:dataTable style="background-color: white;" var="pr" value="#{productController.findAll()}" border="1" cellpadding="2" cellspacing="2">
+    <h:column>
+        <f:facet name="header">Id</f:facet>
+        <h:outputText value="#{pr.productId}"/>
+    </h:column>
+    <h:column>
+        <f:facet name="header">Name</f:facet>
+        <h:outputText value="#{pr.productName}"/>
+    </h:column>
+    <h:column>
+        <f:facet name="header">Price</f:facet>
+        <h:outputText value="#{pr.price}"/>
+    </h:column>
+    <h:column>
+        <f:facet name="header">Quantity</f:facet>
+        <h:outputText value="#{pr.quantity}"/>
+    </h:column>
+</h:dataTable>
+<br/>
+<br/>
+
+</h:form>
+<h:form prependId="false" >
+    <h:panelGrid columns="2">
+        <h:outputText value="#{sale_date}" converter="javax.faces.DateTime">
+            <f:convertDateTime pattern="dd/MM/yyyy"/>
+        </h:outputText>
+
+        <h:outputLabel for="buyerId">Buyer ID:</h:outputLabel>
+        <br/>
+        <h:inputText id="buyerId" value="#{buyerId}" required="true" />
+        <br/>
+        <h:outputLabel for="productId">Product ID:</h:outputLabel>
+        <br/>
+        <h:inputText id="productId" value="#{productId}" required="true" />
+        <br/>
+        <h:outputLabel for="quantitySale">Quantity:</h:outputLabel>
+        <br/>
+        <h:inputText id="quantitySale" value="#{quantitySale}" required="true" />
+        <br/>
+        <h:commandButton value="Submit" action="#{saleController.recordSale(buyerId, productId, quantitySale)}" />
+    </h:panelGrid>
+</h:form>
+<h:form>
+     Select an option:
+     <br/>
+     <br/>
+     <h:commandLink value="Go to Products" action="productList"/>
+     <br/>
+     <br/>
+     <h:commandLink value="Go to Customers" action="buyerList"/>
+     <br/>
+     <br/>
+     <h:commandLink value="Go to Home page" action="welcome"/>
+     <br/>
+     <br/>
+</h:form>
+</ui:define>
+</ui:composition>
+
+</body>
+
+</html>

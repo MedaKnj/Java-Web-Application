@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:16:44:42 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:16:44:46 +0100] "GET /MyWebApplication/ HTTP/1.1" 200 829
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:16:44:46 +0100] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:16:44:53 +0100] "POST /MyWebApplication/faces/index.xhtml HTTP/1.1" 200 1335
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:16:44:53 +0100] "GET /MyWebApplication/faces/javax.faces.resource/jsf.js?ln=javax.faces HTTP/1.1" 200 44385
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:16:45:02 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 200 1074
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:17:13:33 +0100] "POST /MyWebApplication/faces/sales.xhtml HTTP/1.1" 200 5882
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:36:09 +0100] "POST /MyWebApplication/faces/sales.xhtml HTTP/1.1" 500 1709
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:36:20 +0100] "GET /MyWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:36:23 +0100] "GET /MyWebApplication/ HTTP/1.1" 200 828
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:36:29 +0100] "POST /MyWebApplication/faces/index.xhtml HTTP/1.1" 200 1334
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:36:29 +0100] "GET /MyWebApplication/faces/javax.faces.resource/jsf.js?ln=javax.faces HTTP/1.1" 200 44385
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:36:33 +0100] "POST /MyWebApplication/faces/welcome.xhtml HTTP/1.1" 200 5883
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:36:38 +0100] "POST /MyWebApplication/faces/productList.xhtml HTTP/1.1" 200 1398

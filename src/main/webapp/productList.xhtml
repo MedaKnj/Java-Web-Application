@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+
+<h:body>
+
+<ui:composition template="/templates/page.xhtml">
+<ui:define name="content">
+<h:form>
+
+    <br/>
+    <h:dataTable style="background-color: white;" var="pr" value="#{productController.findAll()}" border="1" cellpadding="2" cellspacing="2">
+        <h:column>
+            <f:facet name="header">Id</f:facet>
+            <h:outputText value="#{pr.productId}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Name</f:facet>
+            <h:outputText value="#{pr.productName}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Price</f:facet>
+            <h:outputText value="#{pr.price}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Quantity</f:facet>
+            <h:outputText value="#{pr.quantity}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Option</f:facet>
+            <h:commandLink value="Delete" action="#{productController.delete(pr)}"
+                             onclick="return confirm('Are you sure?')"/> |
+            <h:commandLink value="Edit" action="#{productController.edit(pr)}"/>
+        </h:column>
+    </h:dataTable>
+
+    <br/>
+    <br/>
+    Select an operation:
+    <br/>
+    <br/>
+    <h:link value="Add new product" outcome="addProduct"/>
+    <br/>
+    <br/>
+    <h:commandLink value="Go to Buyers" action="buyerList"/>
+    <br/>
+    <br/>
+    <h:commandLink value="Go to Shopping Cart" action="addSale"/>
+    <br/>
+    <br/>
+    <h:commandLink value="Go to Home Page" action="welcome"/>
+
+</h:form>
+</ui:define>
+</ui:composition>
+
+</h:body>
+
+</html>

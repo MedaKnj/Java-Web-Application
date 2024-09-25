@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head></h:head>
+
+<body>
+<ui:composition template="/templates/page.xhtml">
+<ui:define name="content">
+
+<h:form prependId="false">
+    <h:panelGrid columns="2" cellpadding="2" cellspacing="2">
+
+        <h:outputText value="Id"/>
+        <h:outputText value="#{buyerController.b.buyerId}"/>
+
+        <h:outputText value="Name"/>
+        <h:inputText value="#{buyerController.b.name}"/>
+
+        <h:outputText value="Last Name"/>
+        <h:inputText value="#{buyerController.b.lastName}"/>
+
+        <h:outputText value="Address"/>
+        <h:inputText value="#{buyerController.b.address}"/>
+
+        <h:outputText value="Balance"/>
+        <h:inputText value="#{buyerController.b.balance}"/>
+
+        <h:commandButton value="Save" action="#{buyerController.edit()}"/>
+        <h:commandButton value="Cancel" action="buyerList"/>
+
+    </h:panelGrid>
+</h:form>
+
+</ui:define>
+</ui:composition>
+
+</body>
+
+</html>
